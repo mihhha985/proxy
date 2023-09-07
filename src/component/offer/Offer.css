@@ -1,0 +1,89 @@
+.offer__list{
+  padding-top: 3.12rem;
+  padding-bottom: 6.25rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  column-gap: 1.25rem;
+  row-gap: 3.12rem;
+}
+
+.offer__list > .offer__item{
+  display: flex;
+  height: 18.4375rem;
+  padding: 2.5rem 2.5rem 1.25rem 2.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.125rem;
+  border-radius: 0.375rem;
+  background: var(--wh, #FFF);
+  position: relative;
+}
+
+.offer__list > .offer__item > h4{
+  color: var(--Green-text, #003129);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  text-align: center;
+  margin: 0;
+}
+
+.offer__list > .offer__item > p{
+  color: var(--bl, #011624);
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.offer__list > .offer__item > .marker{
+  display: flex;
+  width: 1.75rem;
+  height: 1.75rem;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0.125rem;
+  top: 0.1875rem;
+  border-radius: 0.375rem;
+  background: #B0F8C7;
+  color: var(--bl, #011624);
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.71875rem; /* 71.875% */
+}
+
+.offer__list > .offer__item > button{
+  display: flex;
+  padding: 0.3125rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--brand-color, #0A6FCC);
+  opacity: 0.5;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.89844rem; /* 119.792% */
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  opacity: .5;
+}
+
+.offer__list > .offer__item > button:hover{
+  opacity: 1;
+}

@@ -1,0 +1,64 @@
+.footer__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.footer__content text{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.footer__content__links__item{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.94rem;
+}
+
+.footer__content__links__item > .link:hover{
+  cursor: pointer;
+  transition: all 0.4s ease;
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer__content__links{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 3.12rem;
+}
+
+.footer__content__icon__box{
+  display: flex;
+  gap:0.94rem;
+}
+
+.footer__content__icon__box > .icon:hover > svg{
+  cursor: pointer;
+  transition: all 0.4s ease;
+  fill: black;
+} 
+
+.footer__content__text{
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.footer__content__links__item > .payment__icons{
+  display: flex;
+  column-gap: 0.62rem;
+}

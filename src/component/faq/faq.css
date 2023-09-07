@@ -1,0 +1,75 @@
+.faq__title{
+  margin: 3.12rem 0;
+  text-align: center;
+  color: var(--wh, #FFF);
+  font-family: Montserrat;
+}
+
+.faq__title > h2{
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 0;
+}
+
+.faq__title > h5{
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 0;
+}
+
+.faq__acardeon{
+  padding-bottom: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.25rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.faq__acardeon__item{
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  background: #FFF;
+  box-shadow: 0px 0px 15.625px 0px #DDD;
+
+}
+
+.faq__acardeon__item > .faq__acardeon__control{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq__acardeon__item > .faq__acardeon__control > h4{
+  color: var(--bl, #011624);
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 0;
+}
+
+.faq__acardeon__item > .faq__acardeon__text > .faq__acardeon__border{
+  height: 1px;
+  margin: 1.12rem 0;
+  background:  rgba(0,0,0,0.1);
+}
+
+.faq__acardeon__item > .faq__acardeon__text > p{
+  width: 80%;
+  color: var(--bl, #011624);
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 0;
+}

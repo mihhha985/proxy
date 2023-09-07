@@ -1,0 +1,174 @@
+.main__content{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__content__left{
+  width: 45%;
+}
+
+.main__content__left > h1{
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 2.8rem */
+  text-transform: uppercase;
+}
+
+.main__content__left > p{
+  font-family: Montserrat;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 1.925rem */
+}
+
+.main__content__left__btn{
+  display: flex;
+  align-items: center;
+  column-gap: 1.25rem;
+}
+
+.main__content__left__btn > .btn{
+  display: flex;
+  padding: 0.9375rem 1.875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 1.4rem */
+  border-radius: 1rem;
+}
+
+.main__content__left__btn > .btn__buy{
+  color: #fff;
+  border: none;
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.25);
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+  box-shadow: 0px 2.5px 9.375px 0px #004770;
+  transition: all 0.4s ease;
+}
+
+.main__content__left__btn > .btn__buy:hover{
+  border-radius: 16px;
+  background: linear-gradient(47deg, rgba(59, 237, 77, 0.75) -44.41%, #0A6FCC 124.33%);
+  box-shadow: 0px 2.5px 9.375px 0px #004770;
+  cursor: pointer;
+}
+
+.main__content__left__btn > .btn__send{
+  border-radius: 1rem;
+  border: 1px solid var(--brand-color, #0A6FCC);
+  box-shadow: 0px 2.5px 9.375px 0px #004770;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  transition: all 0.8s ease;
+}
+
+.main__content__left__btn > .btn__send > span{
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main__content__left__btn > .btn__send:hover{
+  border: 1px solid var(--brand-color, #0A6FCC);
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+  box-shadow: 0px 2.5px 9.375px 0px #004770;
+  cursor: pointer;  
+}
+
+.main__content__left__btn > .btn__send:hover > span{
+  background: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main__content__left__btn > .btn__send:hover > svg{
+  transition: all 0.4s ease;
+  fill:#FFF
+}
+
+.main__content__right{
+  text-align: center;
+  position: relative;
+  width: 45%;
+}
+
+.main__content__right > img{
+  position: relative;
+  z-index: 100;
+}
+
+.main__content__right > .pseudo{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 90;
+  width: 12.9375rem;
+  height: 12.9375rem;
+  border-radius: 4.88281rem;
+  opacity: 0.6;
+  background: radial-gradient(70.71% 70.71% at 50% 50%, #00FFC2 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.main__content__right > .wave{
+  width: 15.47944rem;
+  height: 15.47944rem;
+  position: absolute;
+  left: calc(50% - 7.73972rem);
+  top: calc(50% - 7.73972rem);
+}
+
+.main__content__right > .wave:nth-child(3){
+  transform: rotate(-13.971deg);
+  border-radius: 5.03906rem;
+  opacity: 0.4;
+  background: radial-gradient(70.71% 70.71% at 50% 50%, #00FF47 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.main__content__right > .wave:nth-child(2){
+  transform: rotate(45.441deg);
+  border-radius: 5.03906rem;
+  opacity: 0.1;
+  background: radial-gradient(70.71% 70.71% at 50% 50%, #00FFA3 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.main__content__right > .wave:nth-child(1){
+  transform: rotate(-13.971deg);
+  border-radius: 5.03906rem;
+  opacity: 0.4;
+  background: radial-gradient(70.71% 70.71% at 50% 50%, #00FFC2 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.main__content__right > .pseudo__green{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left:20%;
+  bottom: 20%;
+  background-color: #00FFC2;
+  filter: blur(80px);
+  z-index: 100;
+}
+
+.main__content__right > .pseudo__blue{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right:20%;
+  top: 20%;
+  background-color: #0A6FCC;
+  filter: blur(80px);
+  z-index: 100;
+}

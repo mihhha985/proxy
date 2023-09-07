@@ -1,0 +1,95 @@
+.adw__title{
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 0;
+}
+
+.adw__title > span{
+  background: var(--Logo, linear-gradient(47deg, #0A6FCC 8.51%, rgba(59, 237, 77, 0.75) 90.91%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Montserrat;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.adw__items{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:2.5rem;
+  margin: 3.75rem 0;
+}
+
+.adw__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.adw__item-img{
+  width: 3.875rem;
+  height: 3.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+}
+
+.adw__item > text{
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin-top: 0.6rem;
+}
+
+.adw__btn{
+  display: flex;
+  width: 17.25rem;
+  padding: 1.25rem 1.875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid var(--brand-color, #0A6FCC);
+  box-shadow: 0px 2.5px 9.375px 0px #004770;
+  background-color: transparent;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.adw__btn > text{
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.adw__btn:hover{
+  border: 1px solid var(--brand-color, #0A6FCC);
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+  box-shadow: 0px 2.5px 9.375px 0px #004770;
+}
+
+.adw__btn:hover > text{
+  background: #FFF;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+
+.adw__btn:hover > svg{
+  fill: #fff;
+}

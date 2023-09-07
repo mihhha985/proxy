@@ -1,0 +1,128 @@
+.example__content{
+  padding: 3.12rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.88rem;
+}
+
+.example__content__title > h2{
+  color: var(--wh, #000);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; 
+  margin: 0;
+}
+
+.example__content__title > h5{
+  color: var(--wh, #000);
+  text-align: center;
+  font-family: Nunito;
+  font-size: 0.85938rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.98831rem;
+  margin: 0;
+}
+
+.example__content__title > p{
+  color: var(--Green-text, #003129);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 0;
+}
+
+.example__content__title span{
+  background: var(--Logo, linear-gradient(47deg, #0A6FCC 8.51%, rgba(59, 237, 77, 0.75) 90.91%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.example__content__sim{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.61rem;
+}
+
+.example__content__btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.25rem;
+}
+
+.example__content__btn > .buy{
+  display: flex;
+  width: 13.5rem;
+  padding: 0.9375rem 2.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1rem;
+  border: none;
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+  color: var(--wh, #FFF);
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  cursor: pointer;
+}
+
+.example__content__btn > .buy:hover{
+  background: linear-gradient(47deg, rgba(59, 237, 77, 0.75) -44.41%, #0A6FCC 124.33%);
+  box-shadow: 0px 2.5px 9.375px 0px #004770;
+}
+
+.example__content__btn > .send{
+  display: flex;
+  padding: 0.9375rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1rem;
+  border: 1px solid var(--brand-color, #0A6FCC);
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 1.4rem */
+  cursor: pointer;
+}
+
+.example__content__btn > .send > .text{
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.example__content__btn > .send:hover{
+  border: 1px solid var(--brand-color, #0A6FCC);
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+  box-shadow: 0px 2.5px 9.375px 0px #004770;
+  cursor: pointer;  
+}
+
+.example__content__btn > .send:hover > text{
+  background: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.example__content__btn > .send:hover > svg{
+  transition: all 0.4s ease;
+  fill:#FFF
+}

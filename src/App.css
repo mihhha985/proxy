@@ -1,38 +1,63 @@
-.App {
+.form-container{
+  margin: 3.12rem auto;
+  width: 60%;
+}
+
+.form-container > h2{
+  color: var(--wh, #FFF);
   text-align: center;
+  font-family: Montserrat;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-container > h5{
+  color: var(--wh, #FFF);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-content{
+  padding: 3.12rem 0;
   display: flex;
   flex-direction: column;
+  row-gap: 1.25rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-content > .form-content__label{
+  display: flex;
+  padding: 0.625rem 0rem;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-content > .form-content__item{
+  display: flex;
+  padding: 1.25rem;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: #FFF;
+  box-shadow: 0px 0px 15.625px 0px #DDD;
+}
+
+.form-content > .form-content__item > text{
+  color: var(--bl, #011624);
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
 }

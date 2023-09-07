@@ -1,0 +1,99 @@
+.usingall__title{
+  color: var(--Green-text, #003129);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 0; 
+}
+
+.usingall_headline{
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 0;
+}
+
+.usingall__content{
+  margin-top: 3.12rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.62rem;
+}
+
+.usingall__content__item{
+  display: flex;
+  display: flex;
+  width: 90%;
+  padding: 1.25rem 2.5rem 1.25rem 3.75rem;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 0.5rem;
+  background: #FFF;
+  margin: 0 auto;
+  transition: all 0.8s ease-in-out;
+  cursor: pointer;
+}
+
+.usingall__content__item:hover{
+  background: linear-gradient(47deg, rgba(10, 111, 204, 0.40) -44.41%, rgba(59, 237, 77, 0.30) 124.33%);
+}
+
+.usingall__content__item > div{
+  display: flex;
+  width: 45%;
+}
+
+.usingall__content__item > .usingall__border{
+  width: 0.0625rem;
+  height: 5.625rem;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 5%;
+}
+
+.usingall__content__item h4{
+  color: var(--bl, #011624);
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 0;
+}
+
+.usingall__content__item:last-child h4{
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.usingall__content__item p{
+  color: var(--bl, #011624);
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 0;
+}
+
+.usingall__content__item span{
+  font-family: Montserrat;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.71875rem; /* 38.333% */
+  opacity: 0.2;
+  background: var(--brand-color, linear-gradient(47deg, #0A6FCC -44.41%, rgba(59, 237, 77, 0.75) 124.33%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 1.25rem;
+}
